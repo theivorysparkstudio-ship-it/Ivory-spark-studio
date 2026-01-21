@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --color-ivory: #FDFCF5;
+  --color-gold: #FFD700;
+  --color-gold-dim: #D4AF37;
+  --color-dark: #050505;
+  --color-dark-accent: #111111;
+  --color-glass: rgba(255, 255, 255, 0.05);
+}
+
+:root {
+  --background: var(--color-dark);
+  --foreground: var(--color-ivory);
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Utilities */
+@utility glass {
+  background: var(--color-glass);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@utility text-gradient-gold {
+  background: linear-gradient(to right, var(--color-gold), var(--color-ivory));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
