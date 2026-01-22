@@ -44,8 +44,8 @@ const Footer = () => {
                             </li>
                             <li className="pt-4">
                                 <div className="flex space-x-4">
-                                    <a href="https://www.instagram.com/the_ivory_sp_studio?igsh=MTUwN2I1d2JmaWt4NQ==" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gold hover:bg-gold hover:text-dark transition-all transform hover:scale-110">
-                                        <Instagram size={20} /> the_ivory_sp_studio
+                                    <a href="https://www.instagram.com/the_ivory_sp_studio?igsh=MTUwN2I1d2JmaWt4NQ==" className="w-10 h-10  bg-white/5 border  flex items-center justify-center text-gold hover:bg-gold hover:text-dark transition-all transform hover:scale-110">
+                                        <Instagram size={20} />
                                     </a>
                                     {/* <a href="#" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gold hover:bg-gold hover:text-dark transition-all transform hover:scale-110">
                                         <Linkedin size={20} />
