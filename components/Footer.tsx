@@ -43,14 +43,23 @@ const Footer = () => {
                                 <a href="https://wa.me/917374045132" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors">+91 737 404 5132</a>
                             </li>
                             <li className="pt-4">
-                                <div className="flex space-x-4">
-                                    <a href="https://www.instagram.com/the_ivory_sp_studio?igsh=MTUwN2I1d2JmaWt4NQ==" className="w-10 h-10  bg-white/5 border  flex items-center justify-center text-gold hover:bg-gold hover:text-dark transition-all transform hover:scale-110">
-                                        <Instagram size={20} />
-                                    </a>
-                                    {/* <a href="#" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gold hover:bg-gold hover:text-dark transition-all transform hover:scale-110">
-                                        <Linkedin size={20} />
-                                    </a> */}
-                                </div>
+                              <div className="flex items-center space-x-3">
+  <a
+    href="https://www.instagram.com/the_ivory_sp_studio?igsh=MTUwN2I1d2JmaWt4NQ=="
+    className="flex items-center space-x-2 text-gold hover:text-dark transition-all transform hover:scale-105"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <span className="w-10 h-10 bg-white/5 flex items-center justify-center hover:bg-gold transition-all">
+      <Instagram size={20} />
+    </span>
+
+    <span className="text-sm font-medium tracking-wide">
+      @the_ivory_sp_studio
+    </span>
+  </a>
+</div>
+
                             </li>
                         </ul>
                     </div>
