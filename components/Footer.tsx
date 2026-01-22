@@ -42,24 +42,9 @@ const Footer = () => {
                                 <Phone size={18} className="mr-3 text-gold mt-1 flex-shrink-0" />
                                 <a href="https://wa.me/917374045132" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors">+91 737 404 5132</a>
                             </li>
-                            <li className="pt-4">
-                              <div className="flex items-center space-x-3">
-  <a
-    href="https://www.instagram.com/the_ivory_sp_studio?igsh=MTUwN2I1d2JmaWt4NQ=="
-    className="flex items-center space-x-2 text-gold transition-all transform"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <span className="w-10 h-10 flex items-center justify-center transition-all">
-      <Instagram size={20} />
-    </span>
-
-    <span className="text-sm font-medium tracking-wide">
-      @the_ivory_sp_studio
-    </span>
-  </a>
-</div>
-
+                             <li className="flex items-start text-ivory/70">
+                                <Instagram size={18} className="mr-3 text-gold mt-1 flex-shrink-0" />
+                                <a href="https://www.instagram.com/the_ivory_sp_studio?igsh=MTUwN2I1d2JmaWt4NQ==" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors">@the_ivory_sp_studio2</a>
                             </li>
                         </ul>
                     </div>
