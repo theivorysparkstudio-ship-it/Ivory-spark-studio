@@ -20,21 +20,21 @@ const steps = [
     },
     {
         id: '03',
-        title: 'Contract & Planning',
+        title: 'Planning',
         description: 'Finalize agreements and develop detailed production plans.',
         icon: PenTool,
         details: ['Contract finalization', 'Production schedule']
     },
     {
         id: '04',
-        title: 'Production & Monitoring',
+        title: 'Production',
         description: 'Advanced manufacturing with real-time progress updates.',
         icon: Settings,
         details: ['Real-time tracking', 'Quality inspections']
     },
     {
         id: '05',
-        title: 'Final Delivery & Support',
+        title: 'Final Delivery',
         description: 'Quality verification, secure packaging, and reliable logistics.',
         icon: Package,
         details: ['Quality certification', 'Post-delivery support']
