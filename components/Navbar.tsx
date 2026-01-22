@@ -27,7 +27,7 @@ const Navbar = () => {
                         <Link href="/" className="flex items-center gap-3 group">
                             <div className="relative w-10 h-10 overflow-hidden rounded-lg border border-gold/20 group-hover:border-gold/50 transition-colors">
                                 <Image
-                                    src="/logo.jpg"
+                                    src="/logo.png"
                                     alt="The Ivory Spark Studio Logo"
                                     fill
                                     className="object-cover"
