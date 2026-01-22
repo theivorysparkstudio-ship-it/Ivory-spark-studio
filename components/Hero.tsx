@@ -90,10 +90,7 @@ const Hero = () => {
                                     </div>
 
                                     <div className="flex-grow">
-                                        <div className="flex justify-between items-start">
-                                            <h3 className="text-2xl font-bold mb-2 text-white group-hover:text-gold transition-colors">{service.title}</h3>
-                                            <ArrowRight className="text-white/30 group-hover:text-gold transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300" size={20} />
-                                        </div>
+                                       
 
                                         <p className="text-ivory/70 text-sm leading-relaxed mb-4 border-b border-white/5 pb-4">
                                             {service.description}
