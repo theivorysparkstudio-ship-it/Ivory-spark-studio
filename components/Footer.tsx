@@ -46,7 +46,7 @@ const Footer = () => {
                               <div className="flex items-center space-x-3">
   <a
     href="https://www.instagram.com/the_ivory_sp_studio?igsh=MTUwN2I1d2JmaWt4NQ=="
-    className="flex items-center space-x-2 text-gold hover:text-dark transition-all transform hover:scale-105"
+    className="flex items-center space-x-2 text-gold transition-all transform"
     target="_blank"
     rel="noopener noreferrer"
   >
