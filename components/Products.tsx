@@ -26,7 +26,7 @@ const Products: React.FC<ProductsProps> = ({ products }) => {
                         Featured <span className="text-gradient-gold">Products</span>
                     </motion.h2>
                     <p className="text-lg text-ivory/60 max-w-2xl mx-auto">
-                        Explore our curated collection of 3D printed marvels.
+                        Explore our exclusive collection of 3D-printed creations.
                     </p>
                 </div>
 
