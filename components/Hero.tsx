@@ -48,8 +48,8 @@ const Hero = () => {
                     className="text-left max-w-4xl mb-12 sm:mb-20"
                 >
                     <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold mb-6 leading-tight text-white drop-shadow-2xl">
-                        Bring Your <br />
-                        <span className="text-gradient-gold drop-shadow-none">Ideas to Life</span>
+                        Where Ideas Take <br />
+                        <span className="text-gradient-gold drop-shadow-none">Physical Form</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-ivory/90 mb-10 max-w-2xl leading-relaxed drop-shadow-md">
                         The Ivory Spark Studio specializes in premium 3D services. From custom designing to high-quality 3D printing, we craft products that shine.
