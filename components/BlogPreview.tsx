@@ -31,7 +31,7 @@ const BlogPreview = ({ initialPosts }: BlogPreviewProps) => {
                             Latest <span className="text-gradient-gold">Insights</span>
                         </motion.h2>
                         <p className="text-lg text-ivory/60 max-w-xl">
-                            Trends, innovation, and expertise from the world of advanced manufacturing.
+                            Explore insights, techniques, and trends in 3D printing and CAD modeling—where design precision meets advanced manufacturing.
                         </p>
                     </div>
 
