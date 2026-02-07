@@ -8,15 +8,15 @@ import { ArrowRight, Layers, PenTool } from 'lucide-react';
 const services = [
     {
         title: '3D Printing Service',
-        description: 'Premium quality FDM printing for prototypes, functional parts, and artistic models. We offer high durability, precision, and a range of premium surface finishes..',
-        features: ['Rapid Prototyping', 'Functional and mechanical parts ', 'Custom models'],
+        description: 'Premium quality FDM printing services for prototypes, functional parts, and artistic models. We offer high durability, precision, and a range of premium surface finishes.',
+        features: ['Rapid prototyping', 'Functional and mechanical parts ', 'Custom models'],
         icon: Layers,
         color: 'text-gold'
     },
     {
         title: '3D Design & Modeling',
-        description: 'Expert CAD design and 3D modeling services. We turn your sketches and ideas into print-ready or render-ready digital 3D assets.',
-        features: ['Product Rendering', 'CAD for Manufacturing', 'Character Sculpting'],
+        description: 'Accurate, elegant CAD design and 3D modeling services. We transform ideas into detailed, production-ready digital designs for prototyping, manufacturing, and innovation.',
+        features: ['CAD Modeling', 'CAD for Manufacturing', 'Product Rendering'],
         icon: PenTool,
         color: 'text-ivory'
     }
