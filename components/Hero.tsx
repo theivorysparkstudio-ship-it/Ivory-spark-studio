@@ -15,7 +15,7 @@ const services = [
     },
     {
         title: '3D Design & Modeling',
-        description: 'Accurate, elegant CAD design and 3D modeling services. We transform ideas into detailed, production-ready digital designs for prototyping, manufacturing, and innovation.',
+        description: 'Accurate, elegant CAD design and 3D modeling services. We transform ideas into detailed, production-ready digital designs for prototyping, manufacturing and innovation.',
         features: ['CAD Modeling', 'CAD for Manufacturing', 'Product Rendering'],
         icon: PenTool,
         color: 'text-ivory'
