@@ -63,9 +63,9 @@ ${formData.message}`;
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.6 }}
                         >
-                            <h2 className="text-3xl font-bold mb-6 text-white">Get in <span className="text-gradient-gold">Touch</span></h2>
+                            <h2 className="text-3xl font-bold mb-6 text-white">Get in <span className="text-gradient-gold">touch</span></h2>
                             <p className="text-ivory/60 mb-8 max-w-lg">
-                                Whether you need a custom 3D design, a prototype printed, or want to order one of our unique products, we're here to help.
+                                Whether you need a custom CAD design, 3D printing, or want to order one of our unique products, we're here to help.
                             </p>
 
                             <h3 className="text-2xl font-bold mb-6 text-white">Contact Information</h3>
@@ -102,7 +102,7 @@ ${formData.message}`;
                             </a>
                         </motion.div>
 
-                        {/* Why Choose Spark Studio */}
+                        {/* Why Choose The Ivory Spark Studio */}
                         <motion.div
                             initial={{ opacity: 0, y: 30 }}
                             animate={{ opacity: 1, y: 0 }}
@@ -112,14 +112,14 @@ ${formData.message}`;
                             {/* Decorative Background */}
                             <div className="absolute inset-0 bg-gold/5 blur-[80px] rounded-full pointer-events-none" />
 
-                            <h3 className="text-2xl font-bold mb-6 text-white relative z-10">Why Choose <span className="text-gold">Ivory Spark?</span></h3>
+                            <h3 className="text-2xl font-bold mb-6 text-white relative z-10">Why Choose <span className="text-gold"> The Ivory Spark Studio?</span></h3>
 
                             <div className="space-y-4 relative z-10">
                                 {[
-                                    { icon: Clock, title: "Rapid Turnaround", desc: "Prototypes in as little as 24 hours." },
-                                    { icon: CheckCircle, title: "Precision Quality", desc: "Industrial-grade tolerance up to 50 microns." },
-                                    { icon: Globe, title: "Global Shipping", desc: "We ship our custom creations worldwide." },
-                                    { icon: Phone, title: "Expert Support", desc: "Direct access to our design engineers." }
+                                    { icon: Clock, title: "Rapid Execution", desc: "Fast and efficient completion of a task." },
+                                    { icon: CheckCircle, title: "Precision Quality", desc: "As Industrial-grade tolerance." },
+                                    { icon: Globe, title: "PAN India Shipping", desc: "We ship our custom creations all over India." },
+                                    { icon: Phone, title: "Expert Support", desc: "Easily access to support team." }
                                 ].map((item, idx) => (
                                     <div key={idx} className="flex items-start gap-4">
                                         <div className="mt-1 min-w-[24px] text-gold">
@@ -142,7 +142,7 @@ ${formData.message}`;
                         transition={{ duration: 0.6, delay: 0.2 }}
                         className="bg-white/5 border border-white/10 p-8 md:p-10 rounded-3xl order-1 lg:order-2 h-fit"
                     >
-                        <h3 className="text-2xl font-bold mb-6 text-white">Send a Message</h3>
+                        <h3 className="text-2xl font-bold mb-6 text-white">Send Message</h3>
 
                         <form onSubmit={handleSubmit} className="space-y-6">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -166,13 +166,13 @@ ${formData.message}`;
                                         value={formData.phone}
                                         onChange={handleChange}
                                         className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-gold/50 transition-colors text-white"
-                                        placeholder="+91 737 404 5132"
+                                        placeholder="+91 XXX XXX XXXX"
                                     />
                                 </div>
                             </div>
 
                             <div className="space-y-2">
-                                <label className="text-sm font-medium text-ivory/80">Email Address</label>
+                                <label className="text-sm font-medium text-ivory/80">Email</label>
                                 <input
                                     type="email"
                                     data-name="email"
@@ -185,18 +185,17 @@ ${formData.message}`;
                             </div>
 
                             <div className="space-y-2">
-                                <label className="text-sm font-medium text-ivory/80">Service Interested In</label>
+                                <label className="text-sm font-medium text-ivory/80">Services</label>
                                 <select
                                     data-name="serviceType"
                                     value={formData.serviceType}
                                     onChange={handleChange}
-                                    className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-gold/50 transition-colors text-ivory appearance-none"
+                                    className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-gold/50 transition-colors text-ivory"
                                 >
-                                    <option className="bg-dark">Custom 3D Printing</option>
-                                    <option className="bg-dark">3D Design / CAD Modeling</option>
-                                    <option className="bg-dark">Product Prototyping</option>
-                                    <option className="bg-dark">Bulk Manufacturing</option>
-                                    <option className="bg-dark">Other Inquiry</option>
+                                    <option className="bg-dark">3D Printing</option>
+                                    <option className="bg-dark">CAD Designing</option>
+                                    <option className="bg-dark">Product Inquiry</option>
+                                    <option className="bg-dark">Other </option>
                                 </select>
                             </div>
 

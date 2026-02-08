@@ -14,10 +14,10 @@ export default async function ProductsPage() {
                 {/* Header */}
                 <div className="text-center space-y-4 mb-8">
                     <h1 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent text-gradient-gold">
-                        Our Collection
+                        Collection
                     </h1>
                     <p className="text-gray-400 max-w-2xl mx-auto text-xl">
-                        Discover our range of premium 3D printed artifacts, connected directly to our live inventory system.
+                        Explore premium 3D printed products, available directly from our inventory.
                     </p>
                 </div>
 

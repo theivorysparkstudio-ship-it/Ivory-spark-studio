@@ -15,10 +15,10 @@ export default async function BlogListingPage() {
             <main className="flex-1 pt-24 pb-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
                 <div className="text-center mb-20">
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
-                        Our <span className="text-gradient-gold">Blog</span>
+                        The Ivory Spark Studio<br /> <span className="text-gradient-gold">Blog</span>
                     </h1>
                     <p className="text-xl text-ivory/60 max-w-2xl mx-auto">
-                        Deep dives into the technology, business, and art of 3D printing.
+                        Knowledge hub for CAD modeling, additive manufacturing, and professional 3D printing workflows.
                     </p>
                 </div>
 

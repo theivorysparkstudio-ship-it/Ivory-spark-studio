@@ -9,12 +9,12 @@ const Footer = () => {
                     {/* Brand */}
                     <div className="md:col-span-2">
                         <Link href="/" className="text-2xl font-bold tracking-wider block mb-4">
-                            <span className="text-ivory">IVORY</span>
-                            <span className="text-gold ml-1">SPARK</span>
+                            <span className="text-ivory">The Ivory</span>
+                            <span className="text-gold ml-1">Spark Studio</span>
                         </Link>
                         <p className="text-ivory/60 max-w-sm">
-                            Bringing your ideas to life with premium 3D printing and designing services.
-                            Elevating spaces with custom lamps and products.
+                            We shape your ideas into accurate CAD designs and premium 3D printed parts.
+                            Designed for exceptional quality, precision, and dependable performance.
                         </p>
                     </div>
 

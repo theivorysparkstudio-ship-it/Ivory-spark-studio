@@ -7,37 +7,37 @@ const steps = [
     {
         id: '01',
         title: 'Initial Consultation',
-        description: 'Share project requirements and technical specifications with our expert team.',
+        description: 'Analyze your idea and requirements for optimal CAD and 3D printing.',
         icon: MessageSquare,
-        details: ['Feasibility assessment', 'Material recommendations']
+        details: ['Feasibility assessment','Material recommendations']
     },
     {
         id: '02',
         title: 'Detailed Quotation',
-        description: 'Comprehensive pricing with transparent costs and delivery schedules.',
+        description: 'Transparent quotation with design scope, materials, timelines, and costs.',
         icon: FileText,
-        details: ['Cost breakdown', 'Timeline details']
+        details: ['Cost details','Timeline details']
     },
     {
         id: '03',
-        title: 'Planning',
-        description: 'Finalize agreements and develop detailed production plans.',
+        title: 'Planning & Design',
+        description: 'Optimized planning and precision CAD designs for high-quality printing.',
         icon: PenTool,
-        details: ['Contract finalization', 'Production schedule']
+        details: ['CAD Design finalization','Production schedule']
     },
     {
         id: '04',
         title: 'Production',
-        description: 'Advanced manufacturing with real-time progress updates.',
+        description: 'Advanced 3D printing for durable, high-precision, quality parts.',
         icon: Settings,
-        details: ['Real-time tracking', 'Quality inspections']
+        details: ['Advance process','High Quality ']
     },
     {
         id: '05',
         title: 'Final Delivery',
-        description: 'Quality verification, secure packaging, and reliable logistics.',
+        description: 'Quality inspection completed before packaging and timely delivery.',
         icon: Package,
-        details: ['Quality certification', 'Post-delivery support']
+        details: ['Quality inspections', 'Delivery support']
     }
 ];
 
@@ -62,10 +62,10 @@ const Journey = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         className="text-4xl md:text-5xl font-bold text-white mb-6"
                     >
-                        Your Journey <span className="text-gradient-gold">With Us</span>
+                        How we <span className="text-gradient-gold">work</span>
                     </motion.h2>
                     <p className="text-xl text-ivory/60 max-w-3xl mx-auto">
-                        From initial consultation to final delivery, our streamlined collaboration process ensures transparency, quality, and timely results at every step.
+                         From initial consultation to final delivery, The Ivory Spark Studio provides seamless CAD design and premium 3D printing services with transparency, precision, and on-time delivery.
                     </p>
                 </div>
 
@@ -107,7 +107,7 @@ const Journey = () => {
 
                                     <div className="w-full pt-3 border-t border-white/10">
                                         {step.details.map((detail, idx) => (
-                                            <div key={idx} className="flex items-center text-xs text-ivory/80 mb-1.5 justify-start lg:justify-center">
+                                            <div key={idx} className="flex items-center text-xs text-ivory/80 mb-1.5 justify-start lg:justify-startr">
                                                 <ChevronRight size={12} className="text-gold mr-1" />
                                                 {detail}
                                             </div>

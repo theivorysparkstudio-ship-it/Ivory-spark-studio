@@ -64,7 +64,7 @@ ${formData.message}`;
                             <span className="text-gradient-gold">Something Amazing</span>
                         </h2>
                         <p className="text-xl text-ivory/70 mb-10 leading-relaxed">
-                            Whether you need a custom 3D design, a prototype printed, or want to order one of our unique products, we're here to help.
+                            Whether you need a custom CAD design, 3D printing, or want to order one of our unique products, we're here to help.
                         </p>
 
                         <div className="space-y-6">
@@ -103,7 +103,7 @@ ${formData.message}`;
                         viewport={{ once: true }}
                         className="glass p-8 rounded-3xl border border-white/5"
                     >
-                        <h3 className="text-2xl font-bold mb-6">Send a Message</h3>
+                        <h3 className="text-2xl font-bold mb-6">Send Message</h3>
                         <form onSubmit={handleSubmit} className="space-y-4">
                             <div className="grid grid-cols-2 gap-4">
                                 <div className="space-y-2">
@@ -115,7 +115,7 @@ ${formData.message}`;
                                         onChange={handleChange}
                                         required
                                         className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-gold/50 transition-colors"
-                                        placeholder="John Doe"
+                                        placeholder="Ivory Spark Studio"
                                     />
                                 </div>
                                 <div className="space-y-2">
@@ -126,7 +126,7 @@ ${formData.message}`;
                                         value={formData.phone}
                                         onChange={handleChange}
                                         className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-gold/50 transition-colors"
-                                        placeholder="+91 737 404 5132"
+                                        placeholder="+91 XXX XXX XXXX"
                                     />
                                 </div>
                             </div>
@@ -140,12 +140,12 @@ ${formData.message}`;
                                     onChange={handleChange}
                                     required
                                     className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-gold/50 transition-colors"
-                                    placeholder="john@example.com"
+                                    placeholder="xyz@example.com"
                                 />
                             </div>
 
                             <div className="space-y-2">
-                                <label className="text-sm font-medium text-ivory/80">Service Type</label>
+                                <label className="text-sm font-medium text-ivory/80">Services</label>
                                 <select
                                     data-name="serviceType"
                                     value={formData.serviceType}
@@ -153,7 +153,7 @@ ${formData.message}`;
                                     className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-gold/50 transition-colors text-ivory"
                                 >
                                     <option className="bg-dark">3D Printing</option>
-                                    <option className="bg-dark">3D Designing</option>
+                                    <option className="bg-dark">CAD Designing</option>
                                     <option className="bg-dark">Product Inquiry</option>
                                     <option className="bg-dark">Other</option>
                                 </select>
