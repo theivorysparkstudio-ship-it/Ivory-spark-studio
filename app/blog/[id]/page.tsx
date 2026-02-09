@@ -62,7 +62,7 @@ export default async function BlogPostPage({ params }: Props) {
                 {/* Footer / CTA */}
                 <div className="mt-16 pt-12 border-t border-white/10 text-center">
                     <h3 className="text-2xl font-bold text-white mb-4">Enjoyed this article?</h3>
-                    <p className="text-ivory/60 mb-8">Subscribe to our newsletter for more insights on 3D printing innovation.</p>
+                    <p className="text-ivory/60 mb-8">Subscribe to our newsletter for more insights on 3D printing & CAD design.</p>
                     <div className="flex max-w-md mx-auto gap-4">
                         <input
                             type="email"

@@ -55,7 +55,7 @@ const Journey = () => {
                         whileInView={{ opacity: 1, scale: 1 }}
                         className="inline-block px-4 py-1 rounded-full bg-gold/10 text-gold font-bold text-sm mb-4 border border-gold/20"
                     >
-                        PARTNERSHIP PROCESS
+                        JOURNEY PROCESS
                     </motion.div>
                     <motion.h2
                         initial={{ opacity: 0, y: 20 }}
